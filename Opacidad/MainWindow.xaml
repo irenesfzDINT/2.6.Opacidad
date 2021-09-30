@@ -6,8 +6,37 @@
         xmlns:local="clr-namespace:Opacidad"
         mc:Ignorable="d"
         Icon="assets/127.ico"
-        Title="Opacidad" Height="450" Width="800">
+        Title="Opacidad"
+        Height="450"
+        Width="800">
     <Grid>
-        
+        <Image Source="assets/episodioIV.jpg"
+               HorizontalAlignment="Left"
+               Height="331"
+               Margin="30,50,0,0"
+               Opacity="0.5"
+               VerticalAlignment="Top"
+               Width="249"
+               MouseLeave="SaleRaton"
+               MouseEnter="EntraRaton" />
+        <Image Source="assets/episodioV.jpg"
+               HorizontalAlignment="Left"
+               Height="331"
+               Margin="296,50,0,0"
+               Opacity="0.5"
+               VerticalAlignment="Top"
+               MouseEnter="EntraRaton"
+               MouseLeave="SaleRaton"
+               Width="215" />
+        <Image Source="assets/episodioVI.jpg"
+               HorizontalAlignment="Left"
+               Height="331"
+               Margin="544,50,0,0"
+               Opacity="0.5"
+               VerticalAlignment="Top"
+               MouseEnter="EntraRaton"
+               Width="214"
+               MouseLeave="SaleRaton" />
+
     </Grid>
 </Window>

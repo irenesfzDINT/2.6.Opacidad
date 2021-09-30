@@ -24,5 +24,17 @@ namespace Opacidad
         {
             InitializeComponent();
         }
+
+        private void EntraRaton(object sender, MouseEventArgs e)
+        {
+            Image imagen = (Image)sender;
+            imagen.Opacity = 1;
+        }
+
+        private void SaleRaton(object sender, MouseEventArgs e)
+        {
+            Image imagen = (Image)sender;
+            imagen.Opacity = 0.5;
+        }
     }
 }
